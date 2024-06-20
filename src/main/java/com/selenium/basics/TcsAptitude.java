@@ -16,7 +16,7 @@ public class TcsAptitude {
     	Thread.sleep(10000);
 	    driver.findElement(By.xpath("//*[@id=\"userid_temp\"]")).sendKeys("Voorandurusujanvenkat@gmail.com");
 	    Thread.sleep(10000);
-        driver.findElement(By.xpath("//*[@id=\"confData\"]")).sendKeys("N5ku958cbk@");
+        driver.findElement(By.xpath("//*[@id=\"confData\"]")).sendKeys("Password here");
         Thread.sleep(10000);
 	    driver.findElement(By.xpath("//*[@id=\"loginExistingUser\"]")).click();
         Thread.sleep(10000);
